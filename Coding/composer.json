@@ -1,0 +1,29 @@
+{
+    "name": "university/test",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "retroace",
+            "email": "rajeshdpaudel@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "traits"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    }
+
+
+}
